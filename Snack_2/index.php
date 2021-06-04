@@ -12,7 +12,7 @@
     $mail = $_GET["mail"]
     $age = $_GET["age"]
 
-    if(count($name) >= 3 && strpos("@",$mail) && strpos(".", $mail) && is_numeric(mixed $age) ){
+    if(count($name) >= 3 && strpos("@",$mail) && strpos(".", $mail) && is_numeric($age) ){
   ?>
     <h1>accesso eseguito</h1>
   <?php
